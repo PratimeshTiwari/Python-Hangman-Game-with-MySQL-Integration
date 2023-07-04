@@ -1,7 +1,17 @@
-# Hangman-with-MYSQL
-Takes data from user and stores whether he won or lost the game in a text file then converts the text file to csv file and finally using the csv file to push data to mysql database 
+The "Hangman-with-MYSQL" application collects user data regarding game outcomes (win or loss) and performs the following steps:
+
+User data, including game results, is stored in a text file.
+The text file is converted to a CSV file, enabling easier data manipulation and organization.
+The CSV file is utilized to transfer the user data into a MySQL database.
+The MySQL database stores the user records, allowing for efficient data retrieval and analysis.
+This application seamlessly integrates the Hangman game, data storage in text and CSV formats, and the MySQL database for enhanced data management and analysis.
 
 
+The program flow consists of the following steps:
 
-Program flow :
-Creating the Hangman.py game -> Storing the data from Hangman.py in a text file -> creating a csv file using pandas and writing the user record data from Hangman.py -> Using the csv file to write the data to the MySQL databse (table) and using the MYSQL table to read the user data in the python program 
+Hangman.py game is created to interact with the user and determine game outcomes.
+User's game results (whether they won or lost) are stored in a text file.
+The text file is converted to a CSV file using the pandas library, organizing the user record data from Hangman.py.
+The CSV file is utilized to write the data to a MySQL database, creating a table to store the user records.
+The MySQL table is accessed within the Python program to read and retrieve user data as needed.
+Note: Each step involves specific coding and implementation, which can be achieved using relevant Python libraries and appropriate database connection methods.
