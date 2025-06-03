@@ -24,3 +24,4 @@ if connection.is_connected():
 connection.close()
 cursor.close()
 print("MySQL connection is closed")
+print("Data Displayed from MYSQL Table")
